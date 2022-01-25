@@ -1,0 +1,12 @@
+<div class="container">
+  <div>
+    <button [routerLink]="['/']">Home</button>
+    <button [routerLink]="['/','line-chart']">Line chart</button>
+    <button [routerLink]="['/','fabric-signature']">Digital signature</button>
+    <!-- <div echarts [options]="chartOption" class="demo-chart"></div> -->
+  </div>
+</div>
+
+
+
+<router-outlet></router-outlet>
